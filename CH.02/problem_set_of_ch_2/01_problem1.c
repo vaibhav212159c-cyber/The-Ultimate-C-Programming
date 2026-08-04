@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main ()
+int main()
 {
-    int a;
-
-    printf("enter the first number :");
-    
-    scanf("%d",&a);
-printf("The remainder when divided by 97 is %d", a % 97);
+    // Which of the following is invalid in C?
+    int a = 1;
+    int b = a;
+    int v = 3 * 3;
+    // char dt = '21 dec 2020'; // Wrong!
     return 0;
 }
