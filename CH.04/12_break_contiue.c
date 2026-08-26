@@ -1,15 +1,19 @@
 #include <stdio.h>
 
-int main ()
+int main()
 {
-    int i ;
-    for (i = 0; i <=15; i++)
+    int i;
+
+    for (i = 0; i <= 15; i++)
     {
-        if(i==5){
-            // break ; // exite the code now
-            continue;// skip this itretion now (skip 5 )
+        if (i == 5)
+        {
+            // break; // exit the code now
+            continue; // skip this iteration (skip 5)
         }
-        printf("the i is %d\n ",i);
+
+        printf("the i is %d\n", i);
     }
+
     return 0;
 }
