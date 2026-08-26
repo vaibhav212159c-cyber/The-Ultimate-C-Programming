@@ -6,7 +6,8 @@ int main ()
     for (i = 0; i <=15; i++)
     {
         if(i==5){
-            break ; // exite the code now
+            // break ; // exite the code now
+            continue;// skip this itretion now (skip 5 )
         }
         printf("the i is %d\n ",i);
     }
